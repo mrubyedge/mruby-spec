@@ -11,7 +11,7 @@ Numeric#step :
 ERROR: [Internal Error] register 26 is not assigned
 OK: 1, FAIL: 0, ERROR: 6, WARN: 0, SKIP: 0, STRESS: 0
 
-thread 'spec_numeric' (3736) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
+thread 'spec_numeric' (2366) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
 numeric.rb: upstream assertions failed
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 test spec_numeric ... FAILED
@@ -21,5 +21,5 @@ failures:
 failures:
     spec_numeric
 
-test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 49 filtered out; finished in 0.01s
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 49 filtered out; finished in 0.00s
 
