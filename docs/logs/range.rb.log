@@ -25,44 +25,44 @@ Range#include? :
   assertion failed:  
 FAIL
 Range#initialize : 
-  assertion failed:  expected #<Range:0x00007f96b40526d0>, actual #<Range:0x00007f96b4043de0>
+  assertion failed:  expected #<Range:0x00007f2ac40526d0>, actual #<Range:0x00007f2ac4043de0>
 ERROR: Method not found: undefined method `exclude_end?` for Range
 Range with a NaN for an end : ERROR: Method not found: undefined method `const_defined?` for Class
 Range#last : ERROR: Method not found: undefined method `last` for Range
 Range#member? : ERROR: Method not found: undefined method `member?` for Range
 Range#to_s : 
-  assertion failed:  expected "0..1", actual "#<Range:0x00007f96b4076f50>"
+  assertion failed:  expected "0..1", actual "#<Range:0x00007f2ac4076f50>"
 
-  assertion failed:  expected "0...1", actual "#<Range:0x00007f96b4076f50>"
+  assertion failed:  expected "0...1", actual "#<Range:0x00007f2ac4076f50>"
 
-  assertion failed:  expected "a..b", actual "#<Range:0x00007f96b4038630>"
+  assertion failed:  expected "a..b", actual "#<Range:0x00007f2ac4038630>"
 
-  assertion failed:  expected "a...b", actual "#<Range:0x00007f96b4076dd0>"
+  assertion failed:  expected "a...b", actual "#<Range:0x00007f2ac4076dd0>"
 
-  assertion failed:  expected "0..", actual "#<Range:0x00007f96b4076dd0>"
+  assertion failed:  expected "0..", actual "#<Range:0x00007f2ac4076dd0>"
 
-  assertion failed:  expected "0...", actual "#<Range:0x00007f96b4076dd0>"
+  assertion failed:  expected "0...", actual "#<Range:0x00007f2ac4076dd0>"
 
-  assertion failed:  expected "a..", actual "#<Range:0x00007f96b4077010>"
+  assertion failed:  expected "a..", actual "#<Range:0x00007f2ac4077010>"
 
-  assertion failed:  expected "a...", actual "#<Range:0x00007f96b4086790>"
+  assertion failed:  expected "a...", actual "#<Range:0x00007f2ac4086790>"
 FAIL
 Range#inspect : 
-  assertion failed:  expected "0..1", actual "#<Range:0x00007f96b4076d10>"
+  assertion failed:  expected "0..1", actual "#<Range:0x00007f2ac4076d10>"
 
-  assertion failed:  expected "0...1", actual "#<Range:0x00007f96b4076d10>"
+  assertion failed:  expected "0...1", actual "#<Range:0x00007f2ac4076d10>"
 
-  assertion failed:  expected ""a".."b"", actual "#<Range:0x00007f96b4076ab0>"
+  assertion failed:  expected ""a".."b"", actual "#<Range:0x00007f2ac4076ab0>"
 
-  assertion failed:  expected ""a"..."b"", actual "#<Range:0x00007f96b4038630>"
+  assertion failed:  expected ""a"..."b"", actual "#<Range:0x00007f2ac4038630>"
 
-  assertion failed:  expected "0..", actual "#<Range:0x00007f96b4038630>"
+  assertion failed:  expected "0..", actual "#<Range:0x00007f2ac4038630>"
 
-  assertion failed:  expected "0...", actual "#<Range:0x00007f96b4038630>"
+  assertion failed:  expected "0...", actual "#<Range:0x00007f2ac4038630>"
 
-  assertion failed:  expected ""a"..", actual "#<Range:0x00007f96b4077300>"
+  assertion failed:  expected ""a"..", actual "#<Range:0x00007f2ac4077300>"
 
-  assertion failed:  expected ""a"...", actual "#<Range:0x00007f96b4077010>"
+  assertion failed:  expected ""a"...", actual "#<Range:0x00007f2ac4077010>"
 FAIL
 Range#eql? : ERROR: Method not found: undefined method `eql?` for Range
 Range#initialize_copy : 
@@ -76,7 +76,7 @@ FAIL
 symbol GC keeps the symbols a Range holds : STRESS (not run)
 OK: 1, FAIL: 6, ERROR: 14, WARN: 0, SKIP: 0, STRESS: 1
 
-thread 'spec_range' (2375) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
+thread 'spec_range' (2545) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
 range.rb: upstream assertions failed
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 test spec_range ... FAILED
