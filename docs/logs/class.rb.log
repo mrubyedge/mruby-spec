@@ -5,9 +5,7 @@ Class#initialize : ERROR: Class#new must be called from class
 Class#initialize_copy : ERROR: Method not found: undefined method `dup` for TestClass
 Class#new : 
   assertion failed: Singleton should raise TypeError expected exception, but nothing was raised
-
-  assertion failed:  expected :only_args, actual nil
-FAIL
+ERROR: Method not found: undefined method `!` for FalseClass
 Class#superclass : ERROR: Method not found: undefined method `superclass` for Class
 Class 1 : OK
 Class 2 : OK
@@ -81,9 +79,9 @@ a visibility change makes the method table it needs :
   assertion failed:  
 ERROR: Cannot found name: FrozenError
 a `def` in a method written in a block given a class adds to that class : ERROR: Class#new must be called from class
-OK: 16, FAIL: 8, ERROR: 25, WARN: 0, SKIP: 0, STRESS: 0
+OK: 16, FAIL: 7, ERROR: 26, WARN: 0, SKIP: 0, STRESS: 0
 
-thread 'spec_class' (2322) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
+thread 'spec_class' (3616) panicked at mrubyedge/tests/mruby_spec/mod.rs:78:5:
 class.rb: upstream assertions failed
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 test spec_class ... FAILED
